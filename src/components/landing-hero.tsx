@@ -47,19 +47,22 @@ export default function LandingHero() {
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                Full Stack and Android Developer with {" "}
-                <span className="font-semibold text-accent">7+ years</span>{" "}
-                of experience designing, developing, and maintaining high-quality web and mobile applications.
+                Full Stack and Android Developer with{" "}
+                <span className="font-semibold text-accent">7+ years</span> of
+                experience designing, developing, and maintaining high-quality
+                web and mobile applications.
                 <br />
-                Skilled in {" "}
+                Skilled in{" "}
                 <span className="font-semibold text-accent">Fronend</span>,{" "}
-                <span className="font-semibold text-accent">Backend</span>{" "}
-                and {" "}
+                <span className="font-semibold text-accent">Backend</span> and{" "}
                 <span className="font-semibold text-accent">Android</span>{" "}
                 development,{" "}
-                <span className="font-semibold text-accent">API integration</span>.
-                <br />
-                I bring a strong sense of ownership, adaptability, and a results-driven mindset to every project.{" "}
+                <span className="font-semibold text-accent">
+                  API integration
+                </span>
+                .
+                <br />I bring a strong sense of ownership, adaptability, and a
+                results-driven mindset to every project.{" "}
               </div>
             </FadeUp>
           </AnimatePresence>

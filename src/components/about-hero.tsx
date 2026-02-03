@@ -36,13 +36,12 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Senior Full Stack and Mobile Developer with 7+ years of
-              experience across enterprise and startup environments. Proven
-              track record in refactoring legacy systems, improving test
-              coverage, contributing to NLP-based products, and developing
-              scalable backend and mobile applications. Comfortable working
-              as both a team member and an independent contributor in agile
-              settings.
+              Senior Full Stack and Mobile Developer with 7+ years of experience
+              across enterprise and startup environments. Proven track record in
+              refactoring legacy systems, improving test coverage, contributing
+              to NLP-based products, and developing scalable backend and mobile
+              applications. Comfortable working as both a team member and an
+              independent contributor in agile settings.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>

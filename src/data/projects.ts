@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -47,10 +46,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Json tree",
     favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/1.png",
-      "/images/projects/2.png",
-    ],
+    imageUrl: ["/images/projects/1.png", "/images/projects/2.png"],
     description:
       "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor.",
     sourceCodeHref: "https://github.com/tycoon011008/jsontree",
